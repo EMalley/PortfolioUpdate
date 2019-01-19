@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#landing{
+    /* background-image: url(../images/Landing.jpg); */
+    background-size:cover;
+    background-position: center;
+    display:flex;  
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    padding:0 20px; 
+}
+
+#about-me-btn{
+    padding:0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:15px;
+}
+
+#landing h1{
+    color:#000;
+    font-size:68px;
+}
+
+#landing h5{
+    color:#000;
+    font-size:28px
+}
+
