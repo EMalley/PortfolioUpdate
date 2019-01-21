@@ -2,13 +2,22 @@
     margin:0;
     padding:0;
 }
+.nav{
+    background-image: linear-gradient(to right, #3f3f42 , #616161);;
+    padding:20px
+}
+
+.name{
+    margin-top:20px;
+    padding-left: 20px
+}
 
 #landing{
     /* background-image: url(../images/Landing.jpg); */
     background-size:cover;
     background-position: center;
     display:flex;  
-    justify-content: center;
+    justify-content: left;
     text-align: center;
     height:100vh;
     padding:0 20px; 
@@ -28,5 +37,11 @@
 #landing h5{
     color:#000;
     font-size:28px
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 
