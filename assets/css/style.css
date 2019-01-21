@@ -1,9 +1,12 @@
-*{
-    max-width: 100%;
-    max-height: 100%;
-    margin:0;
-    padding:0;
+html,body{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0,auto;
+    overflow: hidden;
+
 }
+
 .nav{
     background-image: linear-gradient(to right, #3f3f42 , #616161);
     padding:20px
@@ -11,9 +14,15 @@
 
 
 .name{
+    font-family: 'Anton', sans-serif;
     margin-top:20px;
     padding-left: 20px;
-    font-family: 'Anton', sans-serif;
+}
+
+#eric{
+    display: inline-block;
+    position: relative;
+    
 }
 
 #landing{
@@ -22,22 +31,23 @@
     background-position: center;
     display:flex;  
     justify-content: center;
-    text-align: center;
-    height:100vh;
+    /* height:100vh; */
     padding:0 20px; 
+    text-align: center;
 }
 
 .side{
-    justify-content: center;
-    text-align: center;
-    padding-top: 250px;
     font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    padding-top: 250px;
+    padding-right:20px;
+    text-align: center;
 }
 
 #about-me-btn{
-    padding:0 20px;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 20px;
 }
 
 #landing h1{
@@ -51,15 +61,13 @@
 }
 
 footer{
-    justify-content: center;
-    text-align: center;
-    position: relative;
-}
-
-footer{
     background-image: linear-gradient(to right, #3f3f42 , #616161);
     color:#fff;
-    padding:20px;
+    display:inline-flex;
+    justify-content: center;
+    padding:10px;
+    position: sticky;
+    text-align: center;
 }
 
 
