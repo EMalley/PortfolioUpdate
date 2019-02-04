@@ -1,32 +1,16 @@
-*{
-    margin:0;
-    padding:0;
+body {
+    min-height: 200vh;
 }
 
-#landing{
-    /* background-image: url(../images/Landing.jpg); */
-    background-size:cover;
-    background-position: center;
-    display:flex;  
-    justify-content: center;
+.logo {
     text-align: center;
-    height:100vh;
-    padding:0 20px; 
+    font-weight:400;
+    padding-left: 15px;
 }
 
-#about-me-btn{
-    padding:0 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius:15px;
+.thin-text {
+    background: rgba(137,190,187,.7);
+    font-weight:300;
+    padding:10px;
+    border-radius: 10px;
 }
-
-#landing h1{
-    color:#000;
-    font-size:68px;
-}
-
-#landing h5{
-    color:#000;
-    font-size:28px
-}
-

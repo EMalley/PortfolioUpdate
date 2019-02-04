@@ -5,101 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- resetCSS -->
+    <!-- <link rel="stylesheet" href="assets/CSS/reset.css"> -->
+    <!-- Style.css -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Jquery -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!-- Logic -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Eric Malley</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link to logic.JS -->
+    <script src="assets/Javascript/app.js"></script>
 </head>
 
 <body>
-    <!-- ===============
-           Home Section
-         =============== -->
-
-
-         <nav>
-             <ul class="nav justify-content-end">
-                 <li class="nav-item">
-                     <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="contact.html">Contact</a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="#">More Information</a>
-                 </li>                
-             </ul>
-         </nav>
-    <div class="container-flex text-center" id="landing">
-        <div class="row ">
-            <div class="col-md-12 home">
-                <h1>Eric Malley</h1>
-                <h5>Full-Stack Web Developer // Designer</h5><br>
-                <button id="about-me-btn">Explore</button>
-            </div>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-wrapper blue-grey darken-3">
+            <a href="#!" class="brand-logo"><span class="logo">Eric Malley || Web Developer</span></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <!-- ================ -->
-    <!-- ABOUT ME -->
-    <!-- ================ -->
-    <div id="about" class="container-flex">
-        <div class="row">
-            <div class="col-md-2">
-                <img id="eric" src="assets/images/me.png" alt="EricMalley.png">
-            </div>
-            <div class="col-md-10">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae exercitationem quasi
-                    facilis alias hic fugit, aliquid ipsam ipsum nobis ad, rem dolorum labore tenetur, autem sed ab
-                    velit. Explicabo, vero.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente beatae, esse eveniet
-                    ipsum voluptas consectetur, ab fuga vel autem hic ut ratione architecto asperiores libero.
-                    Aliquam ut perferendis fugit.</p>
-            </div>
-        </div>
-    </div>
-    <div id="about" class="container-flex">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-8">
-                <h2>Relevent Skills</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul>
-                                <ol style="list-style-type:none">
-                                    <li>HTML-5</li>
-                                    <li>CSS-3</li>
-                                    <li>Javascript</li>
-                                    <li>JQuery</li>
-                                    <li>APIs</li>
-                                    <li>Node.JS</li>
-                                    <li>MongoDB</li>
-                                    <li>React.js</li>
-                                    <li>Adobe Photoshop</li>
-                                    <li>Microsoft Office Suite</li>
-                                </ol>
-                            </ul>
-                        </div>
-                    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- Hero Container -->
+    <div class="parallax-container valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col l8 s12 white-text">
+                    <h4 class="thin-text align-center">Part Designer || Part Developer</h4>
                 </div>
             </div>
+            <div class="row">
+                <div class="col l4">
+                    <a class="waves-effect btn-large hoverable">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="./assets/images/Landing.png"></div>
+    </div>
+    <!-- Services -->
+    <div class="container">
+        <div class="row">
+            <h4>Services</h4>
+        </div>
+        <div class="row">
+            <div class="card medium light-blue accent-4 z-depth-2"></div>
         </div>
     </div>
 </body>
