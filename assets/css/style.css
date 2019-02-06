@@ -8,6 +8,22 @@ body {
     padding-left: 15px;
 }
 
+.github {
+    padding:20px;
+}
+
+.linkedin {
+    padding:20px
+}
+
+.stackoverflow {
+    padding:20px
+}
+
+.resume {
+    padding: 20px
+}
+
 .thin-text {
     background: rgba(97,190,187,.7);
     font-weight:300;
