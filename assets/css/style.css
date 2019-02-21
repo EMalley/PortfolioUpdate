@@ -16,20 +16,8 @@ body {
     padding-left: 15px;
 }
 
-.github {
-    padding:20px;
-}
-
-.linkedin {
+.resume .linkedin .github {
     padding:20px
-}
-
-.stackoverflow {
-    padding:20px
-}
-
-.resume {
-    padding: 20px
 }
 
 .thin-text {
