@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('.sidenav').sidenav();
-
   $('.parallax').parallax();
+  $('.scrollspy').scrollSpy(); 
 });
-console.log("I am reading this")

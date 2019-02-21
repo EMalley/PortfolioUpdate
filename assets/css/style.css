@@ -2,6 +2,14 @@ body {
     min-height: 200vh;
 }
 
+.blerb{
+    font-size:18px
+}
+
+.parallax-container {
+    height: 100vh;
+}
+
 .logo {
     text-align: center;
     font-weight:400;
