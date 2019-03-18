@@ -10,6 +10,14 @@ body {
     height: 100vh;
 }
 
+#about-me{
+    height:100%;
+}
+
+.lead{
+    font-size: 30px
+}
+
 .logo {
     text-align: center;
     font-weight:400;
